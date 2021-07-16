@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url(look.com.ua-65863.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.flex-box .center h1{
+    font-size: 80px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+    
+}
+.flex-box .center p{
+    text-align: center;
+    font-size:  40px;
+    margin: 20px 0 50px 0;
+    letter-spacing: 2px;
+}
+
+.btn{
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    transition: background 1s ease;
+}
+
+.btn-blue{
+    background-color: rgb(54, 54, 179);
+}
+
+.btn-yellow{
+    background-color: rgb(197, 197, 0);
+}
+
+.btn-yellow:hover{
+    background-color: #aaa;
+    color: yellow;
+    border: 1px dashed rgb(253, 255, 156);
+
+}
+
+.btn-blue:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(54, 54, 179);
+    border: 1px dashed rgb(54, 54, 179);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.offer{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.offer h1{
+    margin: 20px 0;
+    font-size: 30px;
+    
+}
+
+.offer p{
+    margin: 0 0 40px 0;
+}
+
+.footer-service{
+    min-height: 70vh;
+    background-color: #1379A1;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-service > a{
+    color:rgb(197, 197, 0);
+    text-decoration: none;
+    display: block;
+}
+
+.footer-service > h1{
+    font-size: 50px;
+    margin: 40px 0;
+    letter-spacing: 2px;
+    
+}
+
+.flex-service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+
+}
+
+.flex-service .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.flex-service .box .service__item{
+    margin: 0px 30px;
+    
+
+}
+
+.flex-service .box .service__item:hover a{
+    background-color: #1379A1;
+    color: white;
+    border: 1px dashed white;
+}
+
+.flex-service .box .service__item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1379A1;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 30px auto;
+    background-color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+}
+
+.flex-service .box .service__item a:hover{
+    
+}
+
